@@ -1,0 +1,36 @@
+.block_item {
+    width: 300px;
+    margin: 100px;
+    padding:20px;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid #FF8800;
+    border-radius: 4px;
+}
+.block_item:hover {
+    border: 3px solid orange;
+    background-color: orange;
+}
+p{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+.images {
+    font-size: 60px;
+    color: #FFF4DE;
+}
+a{
+    text-decoration: none;
+    color: #FFF4DE;
+}
+
+@media only screen and (max-width:768px) {
+    .block_item {
+        width: 230px;
+        height: 150px;
+        margin: 20px;
+        padding:20px;
+    }
+}

@@ -1,0 +1,91 @@
+.ul_NavBar {
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.li_NavBar {
+    float: left;
+}
+
+.li_NavBar a {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF4DE;
+    text-decoration: none;
+    width: 120px;
+    margin: 70px 0 0 70px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid transparent;
+}
+
+.li_NavBar a:hover ,.li_NavBar a:focus ,.li_NavBar a.active {
+    border-bottom: 3px solid #FF8800;
+}
+
+li .img_logo{
+    width: 55px;
+    height: auto;
+    margin-top: 50px;
+}
+.hr_hor{
+    margin: 83px 0 0 70px;
+    width: 1000px;
+    border: 1px solid #FFF4DE;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 1885px) {
+    .hr_hor{
+        margin: 150px 0 0 -650px;
+        width: 700px;
+        border: 1px solid #FFF4DE;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 1396px) {
+    .hr_hor{
+        margin: 50px 0 0 -70px;
+        width: 700px;
+        border: 1px solid #FFF4DE;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .hr_hor{
+        margin: 50px auto 0;
+        width: 700px;
+        border: 1px solid #FFF4DE;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hr_hor{
+        border:none;
+    }
+    .li_NavBar a {
+        width: 120px;
+        margin: 70px 0 0 10px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .li_NavBar a {
+        font-size: 10px;
+        width: 60px;
+        margin: 50px 0 0 10px;
+    }
+    li .img_logo{
+        display: block;
+        width: 35px;
+        height: auto;
+        margin-top: 30px;
+        padding: 10px;
+    }
+}

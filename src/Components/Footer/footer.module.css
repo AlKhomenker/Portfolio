@@ -1,0 +1,30 @@
+.footer{
+    background-color: #161A2F;
+    height: 100px;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+}
+.ul_footer{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p_footer{
+    font-size: 15px;
+    margin:45px 0 0;
+}
+
+@media only screen and (max-width: 414px) {
+    .p_footer{
+        font-size: 10px;
+        margin:40px 0 0;
+    }
+}

@@ -1,0 +1,31 @@
+.block_item {
+    margin: 100px 0;
+    padding: 0 0 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 3px solid #FF8800;
+}
+
+p{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+.images {
+    font-size: 60px;
+    color: #FF8800;
+}
+
+
+@media only screen and (max-width:768px) {
+    .block_item {
+        margin:20px;
+        padding: 0 0 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-bottom: 3px solid #FF8800;
+    }
+}
