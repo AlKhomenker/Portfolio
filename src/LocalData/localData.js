@@ -31,14 +31,13 @@ const arrayData = {
           { id : 3,
                 pathname: 'education',
                 title: 'education',
-                description:  ['2012 : Moscow Art Academy',
-                    '2012 – 2015 : Moscow State University Of Civil Engineering',
-                    '2016  : "Bang Bang Education" - Online design school',
-                    '2017  : Graphic Design and Branding - "Wayup" online school',
-                    '2019  : Java Programming And Software Engineering  \n' +
-                    'at "Tel-Ran" Computer Solutions\n' +
-                    '(Special Program For Adaptation Of Software Developers Accordingly With Israel IT Technologies By Ministry Of  Absorption)',
-                    '2020  : Advanced Javascript Course, React.js at "Wayup" online school']}
+                description:  [
+                    `"Tel-Ran Computer" - JavaScript Programming and Software Engineering`,
+                    `"WayUp courses" - Advanced JavaScript course; Node.js, React.js`,
+                    `"Education School" - Strategy of building concept, branding and design for a product`,
+                    `"Moscow State University of Civil Engineering" - Industry and Civil Engineering. Russia.`,
+                    `"Moscow Art State Academy ( MARCHI )" - Industrial Architectural design ,UI/UX Graphic design and Craft Arts. Russia.`
+                ]}
         ]
     },
 
